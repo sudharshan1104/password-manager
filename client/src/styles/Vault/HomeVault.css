@@ -1,0 +1,45 @@
+#ref{
+    margin: 1rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    color: rgb(65, 31, 65);
+}
+
+#message{
+    margin: 1rem;
+}
+
+.vault{
+    display: grid;
+    row-gap: 1rem;
+    /* justify-content: center; */
+    align-content: center;
+    margin: 1rem;  
+}
+
+.plus-new{
+    background-color: black;
+    padding: .5rem 0.5rem 0.2rem 0.5rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.plus-new:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.none{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:800px){
+    .vault {
+        justify-content: center;
+    }  
+}

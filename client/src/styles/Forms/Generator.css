@@ -1,0 +1,66 @@
+.generator__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 5rem;
+    margin-left: -5rem;
+}
+
+.generator__form {
+ border: 0.1rem black solid;
+ padding: 1.5rem 3rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+#password-field{
+    width: 120%;
+}
+
+.generator__form input{
+    text-align: start;
+    margin: 1rem;
+}
+.generator__form:first-child{
+    display: inline;
+    width: 50%;
+}
+
+.copy__button{
+ padding-left: 1rem;
+}
+
+.clipboard:hover{
+    cursor: pointer;
+}
+
+.password-generator__button{
+    margin-top: 0.25rem;
+    border: none;
+    padding: 0.20rem;
+    background-color: rgba(47, 4, 117, 0.788);
+    color: white;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:1000px) {
+    .generator__wrapper{
+        padding: 3rem 1rem;
+        margin: 1rem;
+    }
+    .generator__form:first-child{
+        display: inline;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    #password__field{
+        width : 70%
+    }
+    .generator__form{
+        padding: 1rem;
+    }
+}

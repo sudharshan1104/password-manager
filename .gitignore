@@ -1,0 +1,13 @@
+node_modules/
+client/build
+client/dist
+
+
+server/.env
+
+.env
+.env.*
+.env-cmdrc
+*.ps1
+*.pem
+APIs/

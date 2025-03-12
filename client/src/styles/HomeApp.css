@@ -1,0 +1,48 @@
+.home{
+  display: flex;
+  flex-direction: column;
+  background: url('../images/key7.jpg') no-repeat center ;
+  background-size: cover;
+  height: 92vh;
+  width: 98.9vw;
+  font-weight: bold;
+}
+
+.home__intro > h1{
+  
+  padding: 2rem;
+  padding-top: 5rem;
+  text-align: start;
+  color: white;
+  font-weight: 1000;
+  font-size: 3rem;
+}
+.home__intro > p {
+  text-align: start;
+  margin: 0.5rem 1.5rem;
+  /* padding: 2rem; */
+  color: hsl(0, 0%, 100%);
+}
+
+.home__intro > button {
+  margin: 0.25rem 1.5rem;
+  padding: .25rem;
+  background-color: rgb(33, 33, 129);
+  color: white;
+  font-weight: bold;
+  border: .3rem solid rgb(33, 33, 129);
+}
+.home__intro > button:hover {
+  background-color: transparent;
+  cursor: pointer;
+  color : white;
+}
+
+@media only screen and (max-width:375px) {
+  .home__intro {
+    overflow-wrap: break-word;
+  }
+  .home__intro > h1 {
+    font-size: 2rem;
+  }
+}

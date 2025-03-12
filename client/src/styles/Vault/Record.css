@@ -1,0 +1,119 @@
+.vault__contents{
+    font-size: 1.123rem;
+    border: 0.15rem solid black;
+    width:45vw;
+    padding: 0.5rem;
+}
+.record__container{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    overflow:auto;
+}
+
+.record__favicon{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.record__title{
+    color: #8a2be2;
+}
+.record__title:hover{
+    cursor: pointer;
+}
+
+.vault__contents--menu:hover{
+    cursor: pointer;
+}
+.vault__contents--edit-icons{
+
+    padding: 0.3rem;
+}
+
+.vault__contents--edit-icons span:hover {
+    cursor: pointer;
+}
+
+.trash{
+    padding: .15rem;
+}
+.trash:hover{
+    cursor: pointer;
+}
+
+.edit{
+    padding: .15rem;
+}
+.edit:hover{
+    cursor: pointer;
+}
+
+.plus{
+    background-color: black;
+    padding: .5rem 0.5rem 0.2rem 0.5rem;
+    color: white;
+    font-size: 1rem;
+    border: 1px solid black;
+    float: right;
+}
+
+.plus:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.toggle{
+    background-color: transparent;
+    border: none;
+}
+.toggle:hover{
+    cursor: pointer;
+}
+.reye {
+  cursor: pointer;
+}
+
+.vault__contents--menu{
+    float: right;
+    display: inline;
+}
+
+.menu__links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.menu__dropdown-true{
+    border: 1px solid black;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top : 50px;
+    right: -15%;
+}
+
+
+@media only screen and (max-width:800px){
+    .vault__contents {
+        width: 70vw;
+    }  
+    .record__container{
+        display: block;
+        text-align: center;
+    }
+    .menu__dropdown-true{
+        right : -50%
+    }
+}
+@media only screen and (max-width: 350px) {
+    .record__container{
+        text-align: start;
+        margin-left: 0;
+    }
+}
